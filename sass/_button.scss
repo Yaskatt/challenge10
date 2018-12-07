@@ -1,0 +1,27 @@
+$btn-color: #D9728E;
+$btn-hvr-color: #DF8BA2;
+$btn-txt-color: #fff;
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 1em;
+
+  &-submit {
+    background-color: $btn-color;
+    border-color: $btn-color;
+    color: $btn-txt-color;
+
+    &:hover {
+      background-color: $btn-hvr-color;
+      border-color: $btn-hvr-color;
+      color: $btn-txt-color;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .submit-button-wrapper {
+    text-align: right;
+  }
+}
